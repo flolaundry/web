@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="id">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flo Laundry Express</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <!-- Google Fonts Inter -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+     <!-- Favicon / Icon Tab Web -->
+    <link rel="shortcut icon" href="/asset/icons.png" type="image/x-icon">
+
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+        background-color: #f1f5f9;
+      }
+      .btn-card {
+        transition: all 0.2s ease-in-out;
+      }
+      .btn-card:hover {
+        transform: translateY(-2px);
+        box-shadow:
+          0 10px 15px -3px rgba(0, 0, 0, 0.1),
+          0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      }
+      .btn-card:active {
+        transform: translateY(0);
+      }
+    </style>
+  </head>
+  <body
+    class="min-h-screen flex items-center justify-center p-4 sm:p-6 bg-slate-100 text-slate-800"
+  >
+    <div class="w-full max-w-md mx-auto flex flex-col items-center py-8 px-4">
+      <!-- Logo Section -->
+      <div class="relative mb-6">
+        <div
+          class="w-32 h-32 rounded-full overflow-hidden border-4 border-white shadow-md bg-[#ffe6eb] flex items-center justify-center"
+        >
+          <!-- 
+                  Ganti 'Logo Fix Pink Latar.png' di bawah dengan nama file gambar logo Anda.
+                  Pastikan file gambar berada di folder yang sama dengan file index.html ini.
+                -->
+          <img
+            src="/asset/logopinklatar.png"
+            alt="flo Laundry Express Logo"
+            class="w-full h-full object-cover"
+            onerror="
+              this.onerror = null;
+              this.src =
+                'https://placehold.co/200x200/ffe6eb/00c8ff?text=flo+Laundry';
+            "
+          />
+        </div>
+      </div>
+
+      <!-- Title & Subtitles -->
+      <h1
+        class="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight text-center mb-1"
+      >
+        flo Laundry Express
+      </h1>
+
+      <p
+        class="text-base sm:text-lg font-medium text-slate-700 text-center mb-1"
+      >
+        Laundry Express, Pick-up & Delivery
+      </p>
+
+      <p
+        class="text-sm sm:text-base font-semibold text-slate-600 text-center mb-8"
+      >
+        Open: 07.00 - 21.00 WIB
+      </p>
+
+      <!-- Action Links Container -->
+      <div class="w-full space-y-4">
+        <!-- Link 1: WhatsApp -->
+        <a
+          href="https://wa.me/+6285139478300"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-card w-full bg-white text-slate-800 font-semibold py-4 px-5 rounded-2xl shadow-sm border border-slate-200/80 flex items-center justify-between group"
+        >
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-green-50 flex items-center justify-center text-green-600 group-hover:bg-green-500 group-hover:text-white transition-colors"
+            >
+              <i class="fa-brands fa-whatsapp text-2xl"></i>
+            </div>
+            <span class="text-base sm:text-lg text-slate-800 font-bold"
+              >Order Laundry via WhatsApp</span
+            >
+          </div>
+          <div
+            class="text-slate-400 group-hover:text-slate-600 transition-colors"
+          >
+            <i class="fa-solid fa-ellipsis-vertical text-lg"></i>
+          </div>
+        </a>
+
+        <!-- Link 2: Instagram -->
+        <a
+          href="https://www.instagram.com/flolaundry_express"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-card w-full bg-white text-slate-800 font-semibold py-4 px-5 rounded-2xl shadow-sm border border-slate-200/80 flex items-center justify-between group"
+        >
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-pink-50 flex items-center justify-center text-pink-600 group-hover:bg-pink-500 group-hover:text-white transition-colors"
+            >
+              <i class="fa-brands fa-instagram text-2xl"></i>
+            </div>
+            <span class="text-base sm:text-lg text-slate-800 font-bold"
+              >Instagram flo Laundry</span
+            >
+          </div>
+          <div
+            class="text-slate-400 group-hover:text-slate-600 transition-colors"
+          >
+            <i class="fa-solid fa-ellipsis-vertical text-lg"></i>
+          </div>
+        </a>
+
+        <!-- Link 3: Syarat & Ketentuan -->
+        <a
+          href="https://drive.google.com/file/d/1677Y8HWpDHhEIlZ3NMLPUKrmEPcAcgJE/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn-card w-full bg-white text-slate-800 font-semibold py-4 px-5 rounded-2xl shadow-sm border border-slate-200/80 flex items-center justify-between group"
+        >
+          <div class="flex items-center space-x-4">
+            <div
+              class="w-10 h-10 rounded-xl bg-sky-50 flex items-center justify-center text-sky-600 group-hover:bg-sky-500 group-hover:text-white transition-colors"
+            >
+              <i class="fa-solid fa-file-contract text-xl"></i>
+            </div>
+            <span class="text-base sm:text-lg text-slate-800 font-bold"
+              >Syarat & Ketentuan flo Laundry</span
+            >
+          </div>
+          <div
+            class="text-slate-400 group-hover:text-slate-600 transition-colors"
+          >
+            <i class="fa-solid fa-ellipsis-vertical text-lg"></i>
+          </div>
+        </a>
+      </div>
+
+      <!-- Footer / Copyright -->
+      <div class="mt-12 text-center text-xs text-slate-400">
+        <p>
+          &copy; <span id="year"></span> flo Laundry Express. All rights
+          reserved.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Set dynamic year for footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
